@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "abletron"
+version = "0.0.1"
+description = "ableton organizer guy!"
+authors = ["hex benjamin <hex@hexbenjam.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.3"
+black = "^23.3.0"
+
+[tool.poetry.group.dev.dependencies]
+sourcery = "^1.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
