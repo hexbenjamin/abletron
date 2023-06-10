@@ -1,5 +1,3 @@
-.vscode
-tmp.txt.pdm-python
 /.pdm-build
 /.tempvenv
 /.venv
