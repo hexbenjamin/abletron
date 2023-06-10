@@ -1,2 +1,4 @@
-.vscode
-tmp.txt
+/.pdm-build
+/.tempvenv
+/.venv
+/.vscode
