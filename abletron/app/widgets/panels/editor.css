@@ -1,0 +1,10 @@
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+/* >> EditorPanel */
+
+.fp {
+    height: 3fr;
+}
+
+#button_row {
+    height: 1fr;
+}

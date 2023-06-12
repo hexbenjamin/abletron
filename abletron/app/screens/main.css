@@ -1,0 +1,18 @@
+/* + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + */
+/* >> MainScreen */
+
+Placeholder {
+    height: 100%;
+}
+
+.panel {
+    padding: 1;
+}
+
+#config {
+    width: 2fr;
+}
+
+#editor {
+    width: 5fr;
+}
