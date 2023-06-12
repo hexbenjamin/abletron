@@ -25,17 +25,17 @@ class ConfigPanel(Vertical):
         """
         compose the config panel.
         """
-        yield Container(
-            Label("[u]config[/u]"),
-            id="title",
-        )
+        # yield Container(
+        #     Label("[u]config[/u]"),
+        #     id="title",
+        # )
         with Container(id="button_grid"):
-            yield Button("input paths", id="inputs_btn", classes="button paths")
-            yield Button("output path", id="output_btn", classes="button paths")
+            yield Button("input paths", id="inputs_btn", classes="button doubled")
+            yield Button("output path", id="output_btn", classes="button doubled")
             yield Button(
                 "edit categories",
                 id="categories_btn",
-                classes="button",
+                classes="button doubled",
                 variant="primary",
             )
             yield Button("import", id="import_btn", classes="button io")

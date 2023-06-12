@@ -34,10 +34,10 @@ ConfigPanel {
     align: center middle;
 }
 
-.paths {
+.doubled {
     column-span: 2;
 }
 
-#categories_btn {
-    column-span: 2;
+.io {
+    height: 3;
 }
