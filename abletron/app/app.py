@@ -15,8 +15,8 @@ import widgets
 
 # + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 # >> app
-class AbletronApp(App[None]):
-    """Abletron App"""
+class Abletron(App[None]):
+    """Abletron"""
 
     BINDINGS = [("d", "toggle_dark", "toggle dark mode"), ("x", "exit", "exit")]
     CSS_PATH = screens.CSS_PATHS + widgets.CSS_PATHS
@@ -43,5 +43,5 @@ class AbletronApp(App[None]):
 # + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 # >> main
 if __name__ == "__main__":
-    app = AbletronApp()
+    app = Abletron()
     app.run()
