@@ -1,8 +1,12 @@
 *.pyc
 *.pyx
+*/__pycache__
+
+*/.vscode
+/.vscode
 
 /.pdm-build
 /.tempvenv
 /.venv
-/.vscode
+/dist
 /example

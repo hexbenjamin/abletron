@@ -9,8 +9,7 @@ from textual.app import App
 
 # + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
 # >> abletron imports
-import screens
-import widgets
+from abletron.app import CSS_PATHS, screens
 
 
 # + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +
@@ -19,7 +18,7 @@ class Abletron(App[None]):
     """Abletron"""
 
     BINDINGS = [("d", "toggle_dark", "toggle dark mode"), ("x", "exit", "exit")]
-    CSS_PATH = screens.CSS_PATHS + widgets.CSS_PATHS
+    CSS_PATH = CSS_PATHS  # type: ignore
 
     def on_mount(self) -> None:
         """
