@@ -1,4 +1,14 @@
+*.pyc
+
+/__pycache__
+*/__pycache__
+
 /.pdm-build
 /.tempvenv
 /.venv
+
 /.vscode
+*/.vscode
+
+/dist
+/example
